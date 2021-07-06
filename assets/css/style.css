@@ -656,7 +656,7 @@ section {
 
 /* Screenshots Section
 --------------------------------*/
-.owl-dot.active > span {
+/* .owl-dot.active > span {
   height: 10px !important;
   width: 10px !important;
 }
@@ -685,7 +685,7 @@ section {
 
 .owl-theme .owl-dots .owl-dot span {
   background: #ddd;
-}
+}  */
 
 
 /* Pricing Table Section
@@ -877,7 +877,7 @@ section {
 }
 
 #contact .php-email-form input:focus, #contact .php-email-form textarea::focus {
-  background-color: #71c55d;
+  background-color: #9e0059;
 }
 
 #contact .php-email-form input {
@@ -1204,27 +1204,7 @@ section {
   float: center;
   width: 100%;
 }
-/* Blog button */
 
-#blog-id a {
-  color: #9e0059;
-  font-weight: bold;
-}
-
-#blog-button {
-  background-color:#ffbd00;
-  color: white;
-}
-
-#blog-button:hover {
-  background-color:#9e0059;
-  color: white;
-}
-
-#blog-p {
-
-  font-weight:bold;
-}
 
 
 /* Fake image */
@@ -1261,7 +1241,54 @@ section {
 color:#9e0059;
 font-weight: bold;
 }
-  /* Testimonials Section
+
+
+
+#features-id a {
+  color: #9e0059;
+  font-weight: bold;
+}
+
+/* Blog button */
+
+#blog-id a {
+  color: #9e0059;
+  font-weight: bold;
+}
+
+#blog-button {
+  background-color:#ffbd00;
+  color: white;
+}
+
+#blog-button:hover {
+  background-color:#9e0059;
+  color: white;
+}
+
+#blog-p {
+
+  font-weight:bold;
+}
+
+
+/* Support */
+
+#support-id a {
+  color: #9e0059;
+  font-weight: bold;
+}
+
+#support-button {
+  background-color: #ffbd00;
+}
+
+#support-button:hover {
+  background-color:#9e0059;
+  color: white;
+}
+
+/* Testimonials Section
 --------------------------------*/
 #testimonials .testimonials-content {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
@@ -1334,20 +1361,4 @@ font-weight: bold;
 
 .carousel-indicators li {
   margin: 0;
-}
-
-/* Support */
-
-#support-id a {
-  color: #9e0059;
-  font-weight: bold;
-}
-
-#support-button {
-  background-color: #ffbd00;
-}
-
-#support-button:hover {
-  background-color:#9e0059;
-  color: white;
 }
