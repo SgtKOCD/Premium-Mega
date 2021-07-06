@@ -777,13 +777,13 @@ section {
 #contact .info i {
   font-size: 32px;
   color: #ffbd00;
-  float: left;
+  
 }
 
 #contact .info i:hover {
   font-size: 32px;
   color: #ff5c0a;
-  float: left;
+  
 }
 
 #contact .info p {
@@ -832,7 +832,7 @@ section {
   display: none;
   color: #fff;
   background: #ed3c0d;
-  text-align: left;
+  text-align: center;
   padding: 15px;
   font-weight: 600;
 }
@@ -876,7 +876,7 @@ section {
   font-size: 14px;
 }
 
-#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
+#contact .php-email-form input:focus, #contact .php-email-form textarea::focus {
   background-color: #71c55d;
 }
 
@@ -1234,3 +1234,10 @@ section {
   text-align: left;
 }
 /* Blog End*/
+
+/* iletişim css'i */
+
+#iletisim-id a{
+color:#9e0059;
+font-weight: bold;
+}
