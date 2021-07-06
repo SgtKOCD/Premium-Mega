@@ -141,7 +141,7 @@ span {
 }
 
 .back-to-top:hover {
-  background: #ff5400;
+  background: #9e0059;
   color: #fff;
 }
 
@@ -283,7 +283,7 @@ span {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #ff5400;
+  color: #9e0059;
 }
 
 .nav-menu > li {
@@ -311,7 +311,7 @@ span {
 }
 
 .nav-menu ul li:hover > a {
-  color: #ff5400;
+  color: #9e0059;
 }
 
 .nav-menu ul ul {
@@ -383,11 +383,11 @@ span {
 }
 
 #mobile-nav ul li a:hover {
-  color: #ff5400;
+  color: #9e0059;
 }
 
 #mobile-nav ul li #indir_butonu:hover{
-  background-color:#ff5400;
+  background-color:#9e0059;
   color: rgb(255, 255, 255);
 }
 
@@ -405,11 +405,11 @@ span {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #ff5400;
+  color: #9e0059;
 }
 
 #mobile-nav ul .menu-active a {
-  color: #ff5400;
+  color: #9e0059;
 }
 
 #mobile-body-overly {
@@ -433,7 +433,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 body.mobile-nav-active #mobile-nav-toggle i {
-  color: #ff5400;
+  color: #9e0059;
 }
 
 /*--------------------------------------------------------------
@@ -754,7 +754,7 @@ section {
 }
 
 #pricing .block-pricing .table .table_btn a:hover {
-  background: #FF5C0A;
+  background: #9e0059;
 }
 
 #pricing .block-pricing .table .table_btn a .fa {
@@ -782,7 +782,7 @@ section {
 
 #contact .info i:hover {
   font-size: 32px;
-  color: #ff5c0a;
+  color: #9e0059;
   
 }
 
@@ -816,7 +816,7 @@ section {
 }
 
 #contact .social-links a:hover {
-  background: #ff5c0a;
+  background: #9e0059;
   color: #fff;
 }
 
@@ -897,7 +897,7 @@ section {
 }
 
 #contact .php-email-form button[type="submit"]:hover {
-  background: #ff5400;
+  background: #9e0059;
 }
 
 
@@ -978,7 +978,7 @@ section {
 
 .footer .copyrights p a, .footer .copyrights .credits a {
   letter-spacing: 0;
-  color: #ff5400;
+  color: #9e0059;
 }
 
 .footer .copyrights p a, .footer .copyrights .credits a:hover {
@@ -1041,7 +1041,7 @@ section {
 }
 
 .services .service-box.blue:hover {
-  background: #ff5400;
+  background: #9e0059;
 }
 
 .services .service-box.orange {
@@ -1058,7 +1058,7 @@ section {
 }
 
 .services .service-box.orange:hover {
-  background: #ff5400;
+  background: #9e0059;
 }
 
 .services .service-box.green {
@@ -1075,7 +1075,7 @@ section {
 }
 
 .services .service-box.green:hover {
-  background: #ff5400;
+  background: #9e0059;
 }
 
 .services .service-box.red {
@@ -1179,7 +1179,7 @@ section {
 }
 
 #indir_butonu:hover{
-  background-color:#ff5400;
+  background-color:#9e0059;
   color: rgb(255, 255, 255);
 }
 
@@ -1190,7 +1190,7 @@ section {
 }
 
 #indir_butonu1:hover{
-  background-color:#ff5400;
+  background-color:#9e0059;
   color: rgb(255, 255, 255);
 }
 
@@ -1314,4 +1314,20 @@ font-weight: bold;
 
 .carousel-indicators li {
   margin: 0;
+}
+
+/* Support */
+
+#support-id a {
+  color: #9e0059;
+  font-weight: bold;
+}
+
+#support-button {
+  background-color: #ffbd00;
+}
+
+#support-button:hover {
+  background-color:#9e0059;
+  color: white;
 }
