@@ -64,23 +64,24 @@
           <ul class="nav-menu">
             <li><a class="btn btn-lg" id="indir_butonu1">İNDİR</a></li>
             <li><a href="index.html">Ana Sayfa</a></li>
-            <li><a href="#about-us">Hakkında</a></li>
+              <li><a href="index.html#about-us">Hakkında</a></li>
 
-            <li><a href="#features">Özellikler</a></li>
+              <li class="menu-has-children">
+                <a href="Features.html">Özellikler</a>
+                <ul>
+                  <li><a href="#">Drop Down 1</a></li>
+                  <li><a href="#">Drop Down 3</a></li>
+                  <li><a href="#">Drop Down 4</a></li>
+                  <li><a href="#">Drop Down 5</a></li>
+                </ul>
+              </li>
 
-            <li><a href="#pricing">Kampanyalar</a></li>
-            <li><a href="#recent-blog-posts">Blog</a></li>
-            <li class="menu-has-children">
-              <a href="">Drop Down</a>
-              <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
-                <li><a href="#">Drop Down 5</a></li>
-              </ul>
-            </li>
+              <li><a href="index.html#pricing">Kampanyalar</a></li>
+              <li id="blog-id"><a href="Blog.html">Blog</a></li>
+            
 
-            <li><a href="#contact">İletişim</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+            <li><a href="destek.html">Destek</a></li>
           </ul>
         </nav>
         <!-- #nav-menu-container -->
@@ -107,8 +108,8 @@
                 <img src="assets/img/blog/blog-image-1.jpg" height="250px" width="400px">
                 </div>
                 <br>
-                <p>Bilsoft Yazılım Pazarlama Müdürü Ferhat Sağlam, 1 Temmuz 2021 tarihinden itibaren medikal ve tıbbi hizmet sağlayıcı kuruluşların E-faturaya geçiş süresinin mecburi oldunu belirterek yayımlanan yeni tebliğe göre tıbbi hizmet sağlayıcılar, tıbbi malzeme, ilaç veya aktif hammadde sağlayan tüm mükelleflerin ay sonu itibariyle elektronik faturaya geçmelerinin zorunlu olduğu bildirildi.</p>
-               <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber10" style="background-color: aqua; text-align: center;">Göster / Gizle</button></div>
+                <p id="blog-p">Bilsoft Yazılım Pazarlama Müdürü Ferhat Sağlam, 1 Temmuz 2021 tarihinden itibaren medikal ve tıbbi hizmet sağlayıcı kuruluşların E-faturaya geçiş süresinin mecburi oldunu belirterek yayımlanan yeni tebliğe göre tıbbi hizmet sağlayıcılar, tıbbi malzeme, ilaç veya aktif hammadde sağlayan tüm mükelleflerin ay sonu itibariyle elektronik faturaya geçmelerinin zorunlu olduğu bildirildi.</p>
+               <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber10" style=" text-align: center;" id="blog-button">Devamını Oku</button></div>
                <br><br>
                <div id="haber10" class="collapse">
                  <div class="container">
@@ -129,8 +130,8 @@
                 <img src="assets/img/blog/blog-image-1.jpg" height="250px" width="400px">
                 </div>
                 <br>
-                <p>Bilsoft Yazılım Finans Müdürü Uğur Şahin, e-Dönüşümün birçok uygulama ve sistemi içeren ve uçtan uca kontrol yoluyla iş akışlarına olanak sağlayan yeni bir dünya olduğunu söyledi.</p>
-                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber9" style="background-color: aqua; text-align: center;">Göster / Gizle</button></div>
+                <p id="blog-p">Bilsoft Yazılım Finans Müdürü Uğur Şahin, e-Dönüşümün birçok uygulama ve sistemi içeren ve uçtan uca kontrol yoluyla iş akışlarına olanak sağlayan yeni bir dünya olduğunu söyledi.</p>
+                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber9" style="text-align: center;" id="blog-button">Devamını Oku</button></div>
                 <br><br>
                 <div id="haber9" class="collapse">
                   <div class="container">
@@ -150,8 +151,8 @@
                 <img src="assets/img/blog/blog-image-1.jpg" height="250px" width="400px">
                 </div>
                 <br>
-                <p>Bilsoft Yazılım Genel Müdür Yardımcısı Mehmet Öztürk, teknolojik personel takip programının KOBİ’lere büyük kolaylık sağladığını söyledi.</p>
-                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber8" style="background-color: aqua;">Göster</button></div>
+                <p id="blog-p">Bilsoft Yazılım Genel Müdür Yardımcısı Mehmet Öztürk, teknolojik personel takip programının KOBİ’lere büyük kolaylık sağladığını söyledi.</p>
+                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber8" style="text-align: center;" id="blog-button">Devamını Oku</button></div>
                 <br><br>
                 <div id="haber8" class="collapse">
                   <div class="container">
@@ -171,8 +172,8 @@
                 <img src="assets/img/blog/blog-image-1.jpg" height="250px" width="400px">
                 </div>
                 <br>
-                <p>Bilsoft Yazılım Yönetim Kurulu Başkanı Bilal Veli, KOBİ’lerin pandemide de Türkiye ekonomisine önemli katkı sağladığını, Türkiye’de toplam ihracatın yüzde 60,1’ini KOBİ’lerin gerçekleştirdiğini söyledi.Bilsoft Yazılım 2005’ten itibaren sunduğu, yerli ve milli imkanlarla üretilen ön muhasebe programları ile işletmelerin dijital dönüşümlerinde rol oynuyor.</p>
-                <div style="text-align: center;"> <button type="button" id="blog-button-id" class="btn" data-toggle="collapse" data-target="#haber7">Göster</button></div>
+                <p id="blog-p">Bilsoft Yazılım Yönetim Kurulu Başkanı Bilal Veli, KOBİ’lerin pandemide de Türkiye ekonomisine önemli katkı sağladığını, Türkiye’de toplam ihracatın yüzde 60,1’ini KOBİ’lerin gerçekleştirdiğini söyledi.Bilsoft Yazılım 2005’ten itibaren sunduğu, yerli ve milli imkanlarla üretilen ön muhasebe programları ile işletmelerin dijital dönüşümlerinde rol oynuyor.</p>
+                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber7" style="text-align: center;" id="blog-button">Devamını Oku</button></div>
                 <br><br>
                 <div id="haber7" class="collapse">
                   <div class="container">
@@ -190,8 +191,8 @@
                 <img src="assets/img/blog/blog-image-1.jpg" height="250px" width="400px">
                 </div>
                 <br>
-                <p>Bilsoft Yazılım Satış Müdürü Feyza Akdemir, E-Faturaya geçiş zorunluluğu süresinin yaklaştığını belirterek, uyarıda bulundu.</p>
-                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber6" style="background-color: aqua;">Göster</button></div>
+                <p id="blog-p">Bilsoft Yazılım Satış Müdürü Feyza Akdemir, E-Faturaya geçiş zorunluluğu süresinin yaklaştığını belirterek, uyarıda bulundu.</p>
+                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber6" style="text-align: center;" id="blog-button">Devamını Oku</button></div>
                 <br><br>
                 <div id="haber6" class="collapse">
                   <div class="container">
@@ -209,8 +210,8 @@
                 <img src="assets/img/blog/blog-image-1.jpg" height="250px" width="400px">
                 </div>
                 <br>
-                <p>İşletme yazılımları alanında faaliyet gösteren Bilsoft, firmalara ömür boyu ücretsiz ön muhasebe programı sağlıyor.</p>
-                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber5" style="background-color: aqua;">Göster</button></div>
+                <p id="blog-p">İşletme yazılımları alanında faaliyet gösteren Bilsoft, firmalara ömür boyu ücretsiz ön muhasebe programı sağlıyor.</p>
+                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber5" style="text-align: center;" id="blog-button">Devamını Oku</button></div>
                 <br><br>
                 <div id="haber5" class="collapse">
                   <div class="container">
@@ -233,8 +234,8 @@
                 <img src="assets/img/blog/blog-image-1.jpg" height="250px" width="400px">
                 </div>
                 <br>
-                <p>Üretim süreçlerini etkin bir şekilde yönetebilmek için, etkin kontrolün gerekliliğini vurgulayan Bilsoft Yazılım Genel Müdürü Ahmet Veli, üretim yapan işletmeleri yüksek kazanç için üretim süreçlerini sıkı takibe davet etti.</p>
-                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber4" style="background-color: aqua;">Göster</button></div>
+                <p id="blog-p">Üretim süreçlerini etkin bir şekilde yönetebilmek için, etkin kontrolün gerekliliğini vurgulayan Bilsoft Yazılım Genel Müdürü Ahmet Veli, üretim yapan işletmeleri yüksek kazanç için üretim süreçlerini sıkı takibe davet etti.</p>
+                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber4" style="text-align: center;" id="blog-button">Devamını Oku</button></div>
                 <br><br>
                 <div id="haber4" class="collapse">
                   <div class="container">
@@ -254,8 +255,8 @@
                 <img src="assets/img/blog/blog-image-1.jpg" height="250px" width="400px">
                 </div>
                 <br>
-                <p>Bilsoft Yazılım Genel Müdür Yardımcısı ve ARGE bölüm başkanı Mehmet Öztürk, teknik servis programının kullanıcılara büyük kolaylık sağladığını söyledi.</p>
-                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber3" style="background-color: aqua;">Göster</button></div>
+                <p id="blog-p">Bilsoft Yazılım Genel Müdür Yardımcısı ve ARGE bölüm başkanı Mehmet Öztürk, teknik servis programının kullanıcılara büyük kolaylık sağladığını söyledi.</p>
+                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber3" style="text-align: center;" id="blog-button">Devamını Oku</button></div>
                 <br><br>
                 <div id="haber3" class="collapse">
                  <div class="container">
@@ -275,8 +276,8 @@
                 <img src="assets/img/blog/blog-image-1.jpg" height="250px" width="400px">
                 </div>
                 <br>
-                <p>Firma bünyesinde bulunan hızlı satış sistemlerinin marketlere büyük avantaj getirdiğini belirten Bilsoft Yazılım Destek Uzmanı Barış Mehmet Aydın, "programımız son teknolojiye uygun olarak tasarlandı” dedi.</p>
-                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber2" style="background-color: aqua;">Göster</button></div>
+                <p id="blog-p">Firma bünyesinde bulunan hızlı satış sistemlerinin marketlere büyük avantaj getirdiğini belirten Bilsoft Yazılım Destek Uzmanı Barış Mehmet Aydın, "programımız son teknolojiye uygun olarak tasarlandı” dedi.</p>
+                <div style="text-align: center;"> <button type="button" class="btn" data-toggle="collapse" data-target="#haber2" style="text-align: center;" id="blog-button">Devamını Oku</button></div>
                 <br><br>
                 <div id="haber2" class="collapse">
                  <div class="container">
@@ -287,7 +288,7 @@
                 </div>
 
               <div class="card">
-                <div class="container">
+                
                 <h2>Online Tahsilat Sistemleri ile Teması En Aza İndirin</h2>
                 <h5>Tarih: 23 Mart 2021</h5>
                 <br>
@@ -295,18 +296,18 @@
                 <img src="assets/img/blog/blog-image-1.jpg" height="250px" width="400px">
                 </div>
                 <br>
-                <p>Faturanın avantajlarına değinerek, esnafın online tahsilat sistemleri ile teması en aza indirebileceklerini belirtti.</p>
-                <div style="text-align: center;"><button type="button" class="btn" id="goster" data-toggle="collapse" data-target="#haber1" style="background-color: gray;">Göster / Gizle</button></div>
+                <p id="blog-p">Faturanın avantajlarına değinerek, esnafın online tahsilat sistemleri ile teması en aza indirebileceklerini belirtti.</p>
+                <div style="text-align: center;"><button type="button" class="btn" data-toggle="collapse" data-target="#haber1" style=" text-align: center;" id="blog-button">Devamını Oku</button></div>
                 <br><br> 
                 <div id="haber1" class="collapse">
-                 <div class="container">
+                 <div class="container" >
                     <p>Faturanın avantajlarına değinerek, esnafın online tahsilat sistemleri ile teması en aza indirebileceklerini belirtti. Veli, "Geleneksel yöntemlerin dışına çıkarak online tahsilatı müşterilerinize ve bayilerinize sunmanız size farklı bir tahsilat kanalı açacaktır" dedi.<br><br>
                     Gelir İdaresi Başkanlığı tarafından E-Fatura uygulamasına geçilmesinin ardından esnafın geçiş yapmaya başladığı sistem ile ilgili Düzce'de bulunan Bilsoft Yazılım, E-Fatura ile vatandaşların fatura işlemlerini kolaylaştırdı. Bilsoft Yönetim Kurulu Başkanı Bilal Veli, son günlerde korona virüs sebebiyle online sistemin yoğun şekilde kullanılamaya başlandığını ifade ederek, şu ifadeleri kullandı:"Online tahsilat sistemleri ile temas en aza indiriliyor. Aynı zamanda firmaların en önemli finansal sorunlarının başında, düzenli tahsilat yapamamak gelir. Bu durumlar birçok firma için, gerek alacak takibinde gerekse de nakit akışlarında sıkıntı yaşatmaktadır. Özellikle yüksek hacimli nakit akışı olan firmalar bu sıkıntıları yakından hissetmektedir. Yaşanan bu sıkıntıları çözmek için geliştirilen geleneksel modeller olmakla birlikte, bu modellerin işlevselliği ve verimliliği teknolojinin gelişmesi ile tartışılma noktasına gelmiştir. Geleneksel yöntemlerin dışına çıkarak online tahsilatı müşterilerinize ve bayilerinize sunmanız size farklı bir tahsilat kanalı açacaktır. Fiziki pos, nakit ya da çek ile yapılan tahsilatın aksine, online tahsilatta herhangi bir zaman sınırı yaşamadan, istediğiniz zaman müşterinizden alacağınızı tahsil edebilirsiniz. Sadece ödeme almak konusunda değil, müşterinize ulaşma konusunda da online tahsilat daha hızlıdır. Müşterinizin ödeme yapabilmek için sadece internete bağlı olması yeterlidir. Ayrıca ödeme zorluğu yaşayan firmalara karşı, online tahsilat sistemini kullanmak, onlara istediği karttan, istediği oranda taksit yapma imkanı sağlayacağı için, onlara da ödeme kolaylığı avantajı sağlar" ifadelerini kullandı.
                     </p>
                  </div>
-                </div>
-               </div>
-              </div>
+                 </div>
+                 </div>
+                 
               
             </div>
             
@@ -339,17 +340,17 @@
               <h4>Site Haritası</h4>
 
               <ul class="list-unstyled">
-                <li><a href="index.html">Ana Sayfa</a></li>
-                
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="index.html#about-us">Hakkında</a></li>
 
-                <li><a href="#">Özellikler</a></li>
+                <li><a href="Features.html">Özellikler</a></li>
 
-                
-                <li><a href="#">Buradasınız</a></li>
-
-                <li><a href="#">İletişim</a></li>
-
+                <li><a href="index.html#pricing">Kampanyalar</a></li>
+                <li  id="blog-id"><a href="Blog.html">Blog</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+                <li><a href="destek.html">Destek</a></li>
               </ul>
+
             </div>
           </div>
         </div>

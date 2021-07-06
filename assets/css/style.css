@@ -1204,7 +1204,27 @@ section {
   float: center;
   width: 100%;
 }
+/* Blog button */
 
+#blog-id a {
+  color: #9e0059;
+  font-weight: bold;
+}
+
+#blog-button {
+  background-color:#ffbd00;
+  color: white;
+}
+
+#blog-button:hover {
+  background-color:#9e0059;
+  color: white;
+}
+
+#blog-p {
+
+  font-weight:bold;
+}
 
 
 /* Fake image */
