@@ -706,7 +706,7 @@ section {
 
 #pricing .block-pricing:hover {
   background: #fff;
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6), 0 0 20px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3), 0 0 20px 0 rgba(0, 0, 0, 0.3);
   display: inline-block;
   position: relative;
   width: 100%;
@@ -743,8 +743,8 @@ section {
 }
 
 #pricing .block-pricing ul li {
-  border-bottom: 1px solid rgba(153, 153, 153, 0.3);
-  padding: 12px 0;
+  border-bottom: 1px solid rgb(255, 255, 255); /* fiyatlar ara çizgi*/
+  padding: 1px 0;
   text-align: center;
 }
 
@@ -1034,54 +1034,54 @@ section {
 }
 
 .services .service-box.blue {
-  border-bottom: 3px solid #ffbd00;
+  border-bottom: 3px solid  lightblue;
 }
 
 .services .service-box.blue .icon {
-  color: #ffbd00;
-  background: #ffbd00;
+  color: lightblue;
+  background: white;
 }
 
 .services .service-box.blue .read-more {
-  color: #ffbd00;
+  color: lightblue;
 }
 
 .services .service-box.blue:hover {
-  background: #9e0059;
+  background: lightblue;
 }
 
 .services .service-box.orange {
-  border-bottom: 3px solid #ffbd00;
+  border-bottom: 3px solid orange;
 }
 
 .services .service-box.orange .icon {
-  color: #ffbd00;
-  background: #ffbd00;
+  color: orange;
+  background: white;
 }
 
 .services .service-box.orange .read-more {
-  color: #ffbd00;
+  color: orange;
 }
 
 .services .service-box.orange:hover {
-  background: #9e0059;
+  background: orange;
 }
 
 .services .service-box.green {
-  border-bottom: 3px solid #ffbd00;
+  border-bottom: 3px solid rgb(35, 161, 35);
 }
 
 .services .service-box.green .icon {
-  color: #ffbd00;
-  background: #ffbd00;
+  color: rgb(35, 161, 35);
+  background: white;
 }
 
 .services .service-box.green .read-more {
-  color: #ffbd00;
+  color: rgb(35, 161, 35);
 }
 
 .services .service-box.green:hover {
-  background: #9e0059;
+  background: rgb(35, 161, 35);
 }
 
 .services .service-box.red {
