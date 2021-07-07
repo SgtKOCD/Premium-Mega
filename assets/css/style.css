@@ -386,10 +386,16 @@ span {
   color: #9e0059;
 }
 
-#mobile-nav ul li #indir_butonu:hover{
-  background-color:#9e0059;
+#mobile-nav ul li #indir_butonu{
+  background-color:#ffbd00;
   color: rgb(255, 255, 255);
 }
+
+#mobile-nav ul li #indir_butonu:hover{
+  background-color:#9e0059;
+  color: white;
+}
+
 
 #mobile-nav ul li li {
   padding-left: 30px;
@@ -1183,16 +1189,7 @@ section {
   color: rgb(255, 255, 255);
 }
 
-#indir_butonu1{
-  background-color:#ffbd00;
-  color: white;
-  
-}
 
-#indir_butonu1:hover{
-  background-color:#9e0059;
-  color: rgb(255, 255, 255);
-}
 
 /* Servis kartları */
 #service_box{
