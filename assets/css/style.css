@@ -1001,7 +1001,9 @@ section {
   transition: 0.3s;
   border-radius: 5px;
 }
-
+.services .service-box p {
+ text-align: justify;
+}
 .services .service-box .icon {
   font-size: 36px;
   padding: 40px 20px;
