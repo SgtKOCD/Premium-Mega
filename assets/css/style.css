@@ -1036,9 +1036,7 @@ section {
 .services .service-box ul li {
   text-align: left;
 }
-.services .service-box p {
-  text-align: left;
-}
+
 .services .service-box.blue {
   border-bottom: 3px solid  lightblue;
 }
