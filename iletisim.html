@@ -21,6 +21,15 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i"
     rel="stylesheet" />
+  <!--Google icon-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--Bootsrap icon-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--Font Awesome 4 icon-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Font Awesome 5 icon-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -35,63 +44,63 @@
 </head>
 
 <body>
-      <!-- ======= Header ======= -->
-      <header id="header" class="header">
-        <div class="container">
-          <div id="logo" class="pull-left">
-            <h1>
-              <a href="index.html"><span>e</span>Startup</a>
-            </h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>-->
-          </div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header">
+    <div class="container">
+      <div id="logo" class="pull-left">
+        <h1>
+          <a href="index.html"><span>e</span>Startup</a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>-->
+      </div>
 
-          <nav id="nav-menu-container">
-            <ul class="nav-menu">
-              <li><a class="btn btn-lg" id="indir_butonu1">İNDİR</a></li>
-              <li><a href="index.html">Ana Sayfa</a></li>
-              <li><a href="index.html#about-us">Hakkında</a></li>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a class="btn btn-lg" id="indir_butonu1">İNDİR</a></li>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="index.html#about-us">Hakkında</a></li>
 
-              <li><a href="index.html#features">Özellikler</a></li>
+          <li><a href="index.html#features">Özellikler</a></li>
 
-              <li><a href="index.html#pricing">Kampanyalar</a></li>
-              <li><a href="Blog.html">Blog</a></li>
-              <li class="menu-has-children">
-                <a href="">Drop Down</a>
-                <ul>
-                  <li><a href="#">Drop Down 1</a></li>
-                  <li><a href="#">Drop Down 3</a></li>
-                  <li><a href="#">Drop Down 4</a></li>
-                  <li><a href="#">Drop Down 5</a></li>
-                </ul>
-              </li>
-
-              <li id="iletisim-id"><a href="iletisim.html">İletişim</a></li>
+          <li><a href="index.html#pricing">Kampanyalar</a></li>
+          <li><a href="Blog.html">Blog</a></li>
+          <li class="menu-has-children">
+            <a href="">Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
             </ul>
-          </nav>
-          <!-- #nav-menu-container -->
+          </li>
+
+          <li id="iletisim-id"><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </nav>
+      <!-- #nav-menu-container -->
+    </div>
+  </header>
+  <!-- End Header -->
+
+
+  <section class="padd-section" id="contact">
+    <br> <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="section-title text-center col" style="text-align: center;">
+          <h2 style="color:dimgray; text-align: center;">İLETİŞİM</h2>
         </div>
-      </header>
-      <!-- End Header -->
-
-
-      <section class="padd-section" id="contact">
-        <br> <br>
-
+        <br>
+        <br>
         <div class="container">
           <div class="row">
-            <div class="section-title text-center col" style="text-align: center;">
-              <h2 style="color:dimgray; text-align: center;">İLETİŞİM</h2>
-            </div>
-            <br>
-            <br>
-            <div class="container">
-              <div class="row">
             <div class="col-md-3"></div>
             <table class="table col-md-6" id="iletisim-table" style="align-content: center;">
 
               <tbody>
-                
+
                 <tr>
                   <th>Adres:</th>
                   <td>Düzce Üniversitesi Teknopark Orhangazi Mah.<br>Teknopark Cad. No:1 Kat:2 Merkez/Düzce</td>
@@ -130,109 +139,113 @@
             </table>
 
             <div class="col-md-3"></div>
-          </div></div>
-
-
-            <br>
-            <div class="col-md-3"></div>
-
-            <div class="form col-md-6" style="text-align: center;">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form"
-                style="align-items: center;">
-                <div class="form-group" style="text-align: center;">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                    data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                    data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required"
-                    data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validate"></div>
-                </div>
-                <div class="mb-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
-            </div>
-            <div class="col-md-3"></div>
-            <div class="container-fluid">
-            <div class="row">
-              
-                <br><br>
-                
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12062.643012076005!2d31.172284!3d40.901256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x332d4e256b968190!2sBilsoft!5e0!3m2!1str!2str!4v1625561764933!5m2!1str!2str" width="1770" height="250" style="border:0; text-align: center; border-radius: 20px;" allowfullscreen="" loading="lazy"></iframe>
-              </div>
-            </div>
-
           </div>
         </div>
-      </section>
 
 
+        <br>
+        <div class="col-md-3"></div>
 
-
-
-      <!-- ======= Footer ======= -->
-      <footer class="footer">
-        <div class="container">
+        <div class="form col-md-6" style="text-align: center;">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form"
+            style="align-items: center;">
+            <div class="form-group" style="text-align: center;">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
+                data-msg="Please enter at least 4 chars" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required"
+                data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="container-fluid">
           <div class="row">
 
-            <div class="col-md-6">
-              <div class="footer-logo">
+            <br><br>
 
-                <a class="navbar-brand" href="#">BILSOFT</a>
-                <p>BilSoft Yazılım Web yazılım, yerli, hosting, internet danışmanlık hizmetleri ve ticari yazılım
-                  hizmetleri verir.</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12062.643012076005!2d31.172284!3d40.901256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x332d4e256b968190!2sBilsoft!5e0!3m2!1str!2str!4v1625561764933!5m2!1str!2str"
+              width="1770" height="250" style="border:0; text-align: center; border-radius: 20px;" allowfullscreen=""
+              loading="lazy"></iframe>
+          </div>
+        </div>
 
-              </div>
-            </div>
+      </div>
+    </div>
+  </section>
 
-            <div class="col-md-3">
-              <div class="list-menu">
 
-                <h4>Site Haritası</h4>
 
-                <ul class="list-unstyled">
-                  <li><a href="index.html">Anasayfa</a></li>
-                  <li><a href="index.html#about-us">Hakkında</a></li>
 
-                  <li><a href="Features.html">Özellikler</a></li>
 
-                  <li><a href="index.html#pricing">Kampanyalar</a></li>
-                  <li><a href="Blog.html">Blog</a></li>
-                  <li id=iletisim-id><a href="iletisim.html">İletişim</a></li>
-                </ul>
+  <!-- ======= Footer ======= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
 
-              </div>
-            </div>
+        <div class="col-md-6">
+          <div class="footer-logo">
+
+            <a class="navbar-brand" href="#">BILSOFT</a>
+            <p>BilSoft Yazılım Web yazılım, yerli, hosting, internet danışmanlık hizmetleri ve ticari yazılım
+              hizmetleri verir.</p>
 
           </div>
         </div>
 
-        <div class="copyrights">
-          <div class="container">
+        <div class="col-md-3">
+          <div class="list-menu">
 
-            <div class="credits">
-              <p>&copy; Copyrights BILSOFT. All rights reserved. Designed by <a href="https://www.bilsoft.com/"
-                  target="_blank">BILSOFT WEB DEVELOPERS</a></p>
-            </div>
+            <h4>Site Haritası</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="index.html">Anasayfa</a></li>
+              <li><a href="index.html#about-us">Hakkında</a></li>
+
+              <li><a href="Features.html">Özellikler</a></li>
+
+              <li><a href="index.html#pricing">Kampanyalar</a></li>
+              <li><a href="Blog.html">Blog</a></li>
+              <li id=iletisim-id><a href="iletisim.html">İletişim</a></li>
+            </ul>
+
           </div>
         </div>
 
-      </footer><!-- End  Footer -->
+      </div>
+    </div>
+
+    <div class="copyrights">
+      <div class="container">
+
+        <div class="credits">
+          <p>&copy; Copyrights BILSOFT. All rights reserved. Designed by <a href="https://www.bilsoft.com/"
+              target="_blank">BILSOFT WEB DEVELOPERS</a></p>
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- End  Footer -->
 
 
 </body>
