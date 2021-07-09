@@ -208,6 +208,8 @@ span {
   list-style: none;
 }
 
+
+
 .nav-menu ul {
   position: absolute;
   display: none;
@@ -286,6 +288,7 @@ span {
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
   color: #9e0059;
+  font-weight: bold;
 }
 
 .nav-menu > li {
@@ -1721,7 +1724,7 @@ section {
 }
 /* -----------Blog End--------------------------------------------*/
 
-/* iletişim css'i */
+/* iletişimin navbar hover ı */
 
 #iletisim-id a{
 color:#9e0059;
