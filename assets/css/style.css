@@ -9,12 +9,14 @@
 body {
   background-color: #fff;
   color: #333;
-  font-family: 'roboto', sans-serif;
+  
 }
-
+b{
+ font-weight: bold; 
+}
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  font-family:'roboto', sans-serif ;
+  
   text-align: center;
 }
 
@@ -53,7 +55,7 @@ a:hover {
 
 ul {
   letter-spacing: 1px;
-  font-family: 'roboto', sans-serif;
+  
 }
 
 li {
@@ -63,7 +65,7 @@ li {
   letter-spacing: 2px;
   line-height: 30px;
   text-transform: capitalize;
-  font-family: 'roboto', sans-serif;
+  
 }
 
 p {
@@ -73,7 +75,7 @@ p {
   letter-spacing: 0.5px;
   line-height: 2;
   margin-bottom: 20px;
-  font-family: 'roboto', sans-serif;
+  
 }
 
 span {
@@ -100,7 +102,7 @@ span {
   padding: 15px 40px;
   text-transform: uppercase;
   transition: all 0.5s ease-in-out 0s;
-  font-family: 'roboto', sans-serif;
+  
 }
 
 .btn-default:hover {
@@ -774,7 +776,17 @@ section {
 #contact {
   background: #fff;
 }
+#iletisim-table {
+  font-size: 13px;
+}
 
+#iletisim-table th {
+  text-align: left;
+}
+
+#iletisim-table td {
+  text-align: left;
+}
 
 #contact .info {
   color: #222;
@@ -1835,4 +1847,23 @@ font-weight: bold;
 
 .carousel-indicators li {
   margin: 0;
+}
+
+/* features Sayfası */
+
+#card{
+background-color: #ffbd00;
+text-align: center;
+font-size: 13px;
+font-weight: bold;
+color: white;
+}
+#card:hover{
+background-color: #9e0059;
+
+}
+
+#cızgı {
+  border-left: 3px solid gray;
+  height:unset;
 }
