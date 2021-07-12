@@ -1875,8 +1875,8 @@ color: white;
   height:unset;
 }
 
-/* MENU */
+/* SUPPORT */
 
-
-
-
+#support-table{
+  font-size: 14px;
+}
