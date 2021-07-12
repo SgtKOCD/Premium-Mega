@@ -1860,6 +1860,7 @@ text-align: center;
 font-size: 13px;
 font-weight: bold;
 color: white;
+border-radius: 10px;
 }
 #card:hover{
 background-color: #9e0059;
