@@ -1862,10 +1862,20 @@ color: white;
 }
 #card:hover{
 background-color: #9e0059;
+color: #fff;
+}
 
+#card a{
+color: white;
 }
 
 #cızgı {
   border-left: 3px solid gray;
   height:unset;
 }
+
+/* MENU */
+
+
+
+
