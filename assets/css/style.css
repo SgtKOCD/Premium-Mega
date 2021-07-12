@@ -45,12 +45,12 @@ a {
   letter-spacing: 2px;
   text-decoration: none;
   color: #000;
-  font-family: "roboto";
+  font-family: "nunito";
 }
 
 a:hover {
   color: #000;
-  font-family: "roboto";
+  font-family: "nunito";
 }
 
 ul {
@@ -278,7 +278,7 @@ span {
   text-decoration: none;
   display: inline-block;
   color: #555;
-  font-family: "Roboto", sans-serif;
+  font-family: "nunito", sans-serif;
   font-weight: 400;
   font-size: 14px;
   outline: none;
@@ -477,7 +477,7 @@ section {
 }
 
 .section-title h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "nunito", sans-serif;
   font-size: 45px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -491,7 +491,7 @@ section {
 
 .separator {
   color: #626262;
-  font-family: "Roboto", sans-serif;
+  font-family: "nunito", sans-serif;
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 30px;
@@ -613,7 +613,7 @@ section {
 
 #about-us .about-content h2 {
   color: #252525;
-  font-family: "roboto";
+  font-family: "nunito";
   font-size: 39px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -953,7 +953,7 @@ section {
   color: #fff;
   display: inline-block;
   float: none;
-  font-family: "roboto";
+  font-family: "nunito";
   font-size: 24px;
   font-weight: 500;
   height: 100%;
@@ -1795,7 +1795,7 @@ font-weight: bold;
 }
 
 #testimonials .top-top > h2 {
-  font-family: "Roboto" sans-serif;
+  font-family: "nunito" sans-serif;
   font-size: 45px;
   font-weight: 100;
   letter-spacing: 2px;
