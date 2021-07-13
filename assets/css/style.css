@@ -1007,18 +1007,18 @@ section {
   color: #ffbd00;
 }
 
-/* Services */
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
 .services .service-box {
-  box-shadow: 0px 0 10px  rgba(0,0,0, 0.5);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   height: 100%;
   padding: 60px 30px;
   text-align: center;
   transition: 0.3s;
   border-radius: 5px;
 }
-.services .service-box p {
- text-align: justify;
-}
+
 .services .service-box .icon {
   font-size: 36px;
   padding: 40px 20px;
@@ -1050,59 +1050,55 @@ section {
   font-size: 18px;
 }
 
-.services .service-box ul li {
-  text-align: left;
-}
-
 .services .service-box.blue {
-  border-bottom: 3px solid  lightblue;
+  border-bottom: 3px solid #2db6fa;
 }
 
 .services .service-box.blue .icon {
-  color: lightblue;
-  background: white;
+  color: #2db6fa;
+  background: #dbf3fe;
 }
 
 .services .service-box.blue .read-more {
-  color: lightblue;
+  color: #2db6fa;
 }
 
 .services .service-box.blue:hover {
-  background: lightblue;
+  background: #2db6fa;
 }
 
 .services .service-box.orange {
-  border-bottom: 3px solid orange;
+  border-bottom: 3px solid #f68c09;
 }
 
 .services .service-box.orange .icon {
-  color: orange;
-  background: white;
+  color: #f68c09;
+  background: #f7d5ab;
 }
 
 .services .service-box.orange .read-more {
-  color: orange;
+  color: #f68c09;
 }
 
 .services .service-box.orange:hover {
-  background: orange;
+  background: #f68c09;
 }
 
 .services .service-box.green {
-  border-bottom: 3px solid rgb(35, 161, 35);
+  border-bottom: 3px solid #08da4e;
 }
 
 .services .service-box.green .icon {
-  color: rgb(35, 161, 35);
-  background: white;
+  color: #08da4e;
+  background: #95f1b6;
 }
 
 .services .service-box.green .read-more {
-  color: rgb(35, 161, 35);
+  color: #08da4e;
 }
 
 .services .service-box.green:hover {
-  background: rgb(35, 161, 35);
+  background: #08da4e;
 }
 
 .services .service-box.red {
@@ -1111,7 +1107,7 @@ section {
 
 .services .service-box.red .icon {
   color: #e9222c;
-  background: #fef7f8;
+  background: #f5a6b1;
 }
 
 .services .service-box.red .read-more {
@@ -1128,7 +1124,7 @@ section {
 
 .services .service-box.purple .icon {
   color: #b50edf;
-  background: #f8e4fd;
+  background: #efbefc;
 }
 
 .services .service-box.purple .read-more {
@@ -1145,7 +1141,7 @@ section {
 
 .services .service-box.pink .icon {
   color: #f51f9c;
-  background: #feecf7;
+  background: #fcbee3;
 }
 
 .services .service-box.pink .read-more {
@@ -1163,6 +1159,7 @@ section {
 .services .service-box:hover .icon {
   background: #fff;
 }
+
 
 /* Swiper */
 .swiper-container {
